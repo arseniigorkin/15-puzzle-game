@@ -29,7 +29,7 @@ That's it!
 
 Have a lobely parties!
 ----
-![picture alt](https://github.com/arseniigorkin/15-puzzle-game/blob/master/15.png?raw=true "15 puzzle Perl board example")
+![picture alt](https://github.com/arseniigorkin/15-puzzle-game/blob/master/15puzzle.png?raw=true "15 puzzle Perl board example")
 
 Author: Arsenii Gorkin <gorkin@protonmail.com>.
 
