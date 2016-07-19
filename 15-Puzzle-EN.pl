@@ -242,7 +242,7 @@ while ($Finish ne 1) {
 			}
 		}
 		else {
-			print "Your input $INPUT was wrong. Try againg. (Hint: W - up, S - down, A - left, D - right)\n";
+			print "\nYour input $INPUT was wrong. Try againg. (Hint: W - up, S - down, A - left, D - right)\n";
 			chomp ($INPUT = <>);
 			next
 		}
@@ -255,18 +255,18 @@ while ($Finish ne 1) {
 	#Checking exit case
 	elsif ($INPUT =~/^X$/i or $INPUT =~/^exit$/i) {
 		if ($exiter == 0) {
-			print "Do you really want to exit? (Y for yes, N for continue): ";
+			print "\nDo you really want to exit? (Y for yes, N for continue): ";
 			$exiter = 1;
 			chomp ($INPUT = <>);
 		}
 		else {
-			print "Ok. Just type Y for yes or N for continue playing, please, and hit Enter: ";
+			print "\nOk. Just type Y for yes or N for continue playing, please, and hit Enter: ";
 			$exiter = 1;
 			chomp ($INPUT = <>);
 		}
 	}
 	elsif ($INPUT =~/^y$/i and $exiter == 1) {
-		print "Thank you for the game!\n";
+		print "\nThank you for the game!\n";
 		exit
 	}
 	elsif ($INPUT =~/^n$/i and $exiter == 1) {
@@ -278,7 +278,7 @@ while ($Finish ne 1) {
 		chomp ($INPUT = <>);
 	}
 	else {
-		print "Your input $INPUT was wrong. Try againg. (Hint: W - up, S - down, A - left, D - right)\n";
+		print "\nYour input $INPUT was wrong. Try againg. (Hint: W - up, S - down, A - left, D - right)\n";
 		$exiter = 0;
 		chomp ($INPUT = <>);
 	}
