@@ -7,6 +7,8 @@ This is an easy pocket old game that I wrote, using Perl.
 It is played in terminal window by pressing keyboard keys:
 `W` `S` `A` `D` (like in many action games) and `Enter`.
 
+__I wrote the game as a job test less than in 4 hours.__
+
 ###Rules###
 You have to assemble shuffled tiles into an ascending order (1 to 15) form the top to the bottom and the 16th cell
 must be empty.
