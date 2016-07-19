@@ -27,7 +27,7 @@ Just
 To exit from the game type: `exit`, or just an `x` key.
 That's it!
 
-Have a lovely parties!
+Have a lovely games!
 ----
 ![picture alt](https://github.com/arseniigorkin/15-puzzle-game/blob/master/15puzzle.png?raw=true "15 puzzle Perl board example")
 
