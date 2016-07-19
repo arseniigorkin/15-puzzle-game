@@ -61,7 +61,7 @@ while ( --$is ){
 $~ = "OUT";
 write;
 
-print "Your move, please:\n";
+print "\nYour move, please:\n";
 chomp ($INPUT = <>);
 
 # Checking assembly
@@ -249,7 +249,7 @@ while ($Finish ne 1) {
 		$i++;
 		$~ = "OUT";
 		write;
-		print "Next move (#$i), please:\n";
+		print "\nNext move (#$i), please:\n";
 		chomp ($INPUT = <>);
 	}
 	#Checking exit case
@@ -274,7 +274,7 @@ while ($Finish ne 1) {
 		$exiter = 0; #reseting exit switch
 		$~ = "OUT";
 		write;
-		print "Make your next move (#$i), please:\n";
+		print "\nMake your next move (#$i), please:\n";
 		chomp ($INPUT = <>);
 	}
 	else {
@@ -321,5 +321,4 @@ D:  | @|| | | @|| |  | @|| | | @|| |
 @D
     |     | |     |  |     | |     |
      _____   _____    _____   _____
-     
 .
