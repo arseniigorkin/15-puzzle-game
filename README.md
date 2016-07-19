@@ -1,4 +1,4 @@
-# 15 puzzle game (PERL)
+# 15 Puzzle game (PERL)
 15 Puzzle Game (written on perl)
 ----
 
