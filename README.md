@@ -1,5 +1,6 @@
 # 15-puzzle-game
 15 Puzzle Game (written on perl)
+----
 
 ##Description##
 This is an easy pocket old game that I wrote, using Perl.
@@ -26,12 +27,7 @@ Just
 To exit from the game type: `exit`, or just an `x` key.
 That's it!
 
-----
-
 Have a lobely parties!
-
-Thank you!
-
 ----
 
 Author: Arsenii Gorkin <gorkin@protonmail.com>.
