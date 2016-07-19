@@ -26,9 +26,13 @@ Just
 To exit from the game type: `exit`, or just an `x` key.
 That's it!
 
+----
+
 Have a lobely parties!
 
 Thank you!
+
+----
 
 Author: Arsenii Gorkin <gorkin@protonmail.com>.
 
