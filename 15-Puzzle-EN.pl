@@ -17,7 +17,7 @@ Rules are really easy:\n
 \tD - RIGHT.\n
 2) Then an\"Enter\" key.
 This will move tiles with numbers immediately around the empty cell (horizontally or vertically).\n
-3) A screen with a new updated board will be shown after each move.\n\n
+3) A screen with a new updated board will be shown after each turn.\n\n
 VECTORY: Once you will place all the tiles in the ascending order from 1 to 15,
 where the last tile is an eampty (16th) - you win!\n
 Note: sometimes there can be two neighboring tiles by horisontal can be confused. This pair must be 14 and 15 tiles only.
@@ -61,12 +61,12 @@ while ( --$is ){
 $~ = "OUT";
 write;
 
-print "\nYour move, please:\n";
+print "\nYour turn, please:\n";
 chomp ($INPUT = <>);
 
 # Checking assembly
 my $Finish = -1; # var for victory check
-my $i = 1; # Moves counter.
+my $i = 1; # Turns counter.
 while ($Finish ne 1) {
 	# Checking input
 	if ($INPUT =~/^[WSADwsad]$/) {
@@ -249,7 +249,7 @@ while ($Finish ne 1) {
 		$i++;
 		$~ = "OUT";
 		write;
-		print "\nNext move (#$i), please:\n";
+		print "\nNext turn (#$i), please:\n";
 		chomp ($INPUT = <>);
 	}
 	#Checking exit case
@@ -274,7 +274,7 @@ while ($Finish ne 1) {
 		$exiter = 0; #reseting exit switch
 		$~ = "OUT";
 		write;
-		print "\nMake your next move (#$i), please:\n";
+		print "\nMake your next turn (#$i), please:\n";
 		chomp ($INPUT = <>);
 	}
 	else {
@@ -294,7 +294,7 @@ while ($Finish ne 1) {
 $~ = "OUT";
 write;
 
-print "Congratulations!\n\nYOU WON!\nYou have reached the victory in $i moves.\nThank you for the great game!\nGood bye!\n";
+print "Congratulations!\n\nYOU WON!\nYou have reached the victory in $i turns.\nThank you for the great game!\nGood bye!\n";
 exit;
 
 # Printing the results
